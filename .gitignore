@@ -1,0 +1,31 @@
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+/venv
+pip-selfcheck.json
+/api/authentication/__pycache__
+/api/authentication/migrations/__pycache__
+/api/api/__pycache__
+/api/model/__pycache__
+/api/model/migrations/__pycache__
+/web_23/node_modules
+/web_23/node_modules
+/TrainingImage/
+/Images/
+/videos/
+/media/
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations (ignore all migration files but keep __init__.py)
+*/migrations/*
+**/migrations/*
+!*/migrations/__init__.py

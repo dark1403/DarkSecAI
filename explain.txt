@@ -1,0 +1,11 @@
+
+
+2 step 
+1. backend (django framework python based) => backend
+2. frontend (vuejs framework advance javascript) => frontend
+3. database (sqlite)
+4. AI/ML using XGboost
+
+backend process =>
+internal AI/ML model train => pass to gemini along with it's own prompt => based on schemas you'll get final output from gemini
+

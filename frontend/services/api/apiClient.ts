@@ -2,7 +2,7 @@ import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse, AxiosError } f
 
 // Define the base API configuration
 const apiConfig: AxiosRequestConfig = {
-  baseURL: '/django_api', // Assuming the API is served at /api
+  baseURL: 'https://darksecai.onrender.com/api', // Assuming the API is served at /api
   // timeout: 120000, // 120 seconds (2 minutes) timeout for AI operations
   headers: {
     'Content-Type': 'application/json',

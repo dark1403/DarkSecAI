@@ -29,9 +29,12 @@ if dotenv_path.exists():
 SECRET_KEY = 'django-insecure-+(*at#7b5z0n+o4284f0-cea3c&fz=df^*d*zf6oz6zpe0y^g)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [
+    "darksecai.onrender.com",
+    "darksecai-frontend.onrender.com",
+]
 
 # Logging configuration for debugging
 LOGGING = {
@@ -167,7 +170,11 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS settings
-CORS_ALLOW_ALL_ORIGINS = True  # For development only, configure appropriately for production
+# CORS settings
+CORS_ALLOWED_ORIGINS = [
+    "https://darksecai-frontend.onrender.com",
+]
+
 CORS_ALLOW_CREDENTIALS = True
 
 # REST Framework settings

@@ -193,4 +193,4 @@ REST_FRAMEWORK = {
 
 # Gemini API settings
 GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY')
-print(GEMINI_API_KEY)
+# print(GEMINI_API_KEY)
